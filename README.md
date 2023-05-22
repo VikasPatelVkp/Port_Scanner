@@ -3,7 +3,7 @@
 
 # Port Scanner 
 
-A simple Python script that allows user to scan a range of ports on a target IP address and identifies which ports are open. If port is open it identifies service running on it. 
+A simple Python script that allows the user to scan a range of ports on a target IP address and identifies which ports are open. If the port is open it identifies the service running on it. 
 
 It uses the **socket** library for network communication. 
 
