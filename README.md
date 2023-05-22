@@ -57,9 +57,9 @@ Run the script using the following syntax command:
 ```bash
  python3 Port_Scanner.py <IP address> <start port> <end port>
 ```
-Replace **_<IP address>_** with the target IP address you want to scan.
+Replace <IP address> with the target IP address you want to scan.
  
-Replace **_<start port>_** and **_<end port>_** with the range of ports you want to scan.
+Replace <start port> and <end port> with the range of ports you want to scan.
 
 
 
