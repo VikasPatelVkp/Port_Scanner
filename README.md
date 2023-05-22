@@ -1,6 +1,4 @@
-
-![Logo](https://drive.google.com/file/d/1NJwlZKnXCVceDeYf0brAOYm7YbaMJB5X/view?usp=sharing)
-
+![Screenshot (3601)](https://github.com/VikasPatelVkp/Port_Scanner/assets/54985292/027a7401-11b5-4000-b6f3-0ce84f6d0eed)
 
 # Port Scanner 
 
@@ -12,25 +10,26 @@ It utilizes threading for concurrent scanning of multiple ports.
 
 
 ## Author
-This Port Scanner script was created by Vikas Patel.
+This Port Scanner script was created by **_Vikas Patel_**.
 - [@VikasPatelVkp](https://github.com/VikasPatelVkp)
-
+## Demo
+ ![Screenshot (3602)](https://github.com/VikasPatelVkp/Port_Scanner/assets/54985292/65e57cbf-dae0-49ef-85f0-5d48fe368bff)
 
 ## Dependencies
 
 The Port Scanner script relies on the following external libraries:
 
- sys: Provides access to command-line arguments.
+**sys:** Provides access to command-line arguments.
 
-socket: Enables network communication and socket operations.
+**socket:** Enables network communication and socket operations.
 
-threading: Allows concurrent execution of port scanning threads.
+**threading:** Allows concurrent execution of port scanning.
 
-pyfiglet: Generates ASCII art banners for program header.
+**pyfiglet:** Generates ASCII art banners for program.
 
-termcolor: Provides colored output for better readability.
+**termcolor:** Provides colored output.
 
-datetime: Used for displaying the scan start time.
+**datetime:** Used for displaying the scan start time.
 
 Ensure that these dependencies are installed before running the script.
 
@@ -59,7 +58,8 @@ Run the script using the following syntax command:
 ```
 Replace <IP address> with the target IP address you want to scan.
 Replace <start port> and <end port> with the range of ports you want to scan.
-## Demo
+
+
 
 
 
