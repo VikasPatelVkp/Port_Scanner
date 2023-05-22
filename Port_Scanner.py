@@ -6,8 +6,6 @@ from pyfiglet import Figlet
 from termcolor import colored
 from datetime import datetime
 
-
-
 # Define Target
 if len(sys.argv) != 4:
 	print("Invalid  arguments")
@@ -31,7 +29,7 @@ try:
 	start_port = int(sys.argv[2])
 	end_port = int(sys.argv[3])
 
-# Creating fuction that scan single port
+# Creating function that scan single port
 	def scan_port(port):  
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		socket.setdefaulttimeout(1) # It wait only for 1 second to check connection can done or not
@@ -40,10 +38,8 @@ try:
 			service_name = socket.getservbyport(port) # If port is open then get it's service name
 			print(f"Port {colored(port, 'yellow')} is open | service - {colored(service_name, 'magenta')}") #  Print the port open with it's service name using f-string formatting
 		s.close()
-
-
+		
 	for port in range (start_port,end_port+1):
-
 		thread = threading.Thread(target = scan_port, args = (port,)) # Using threads to perform scan on different port concurrently
 		thread.start()
 		
