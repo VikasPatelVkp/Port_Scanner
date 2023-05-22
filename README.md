@@ -17,7 +17,7 @@ This Port Scanner script was created by **_Vikas Patel_**.
 
 ## Dependencies
 
-The Port Scanner script relies on the following external libraries:
+The Port Scanner script relies on the following python libraries:
 
 **sys:** Provides access to command-line arguments.
 
@@ -56,8 +56,9 @@ Run the script using the following syntax command:
 ```bash
  python3 Port_Scanner.py <IP address> <start port> <end port>
 ```
-Replace <IP address> with the target IP address you want to scan.
-Replace <start port> and <end port> with the range of ports you want to scan.
+Replace **_<IP address>_** with the target IP address you want to scan.
+ 
+Replace **_<start port>_** and **_<end port>_** with the range of ports you want to scan.
 
 
 
