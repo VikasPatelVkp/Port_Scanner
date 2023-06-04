@@ -22,15 +22,15 @@ The Port Scanner script relies on the following python libraries:
 
 * **sys:** Provides access to command-line arguments.
 
-**socket:** Enables network communication and socket operations.
+* **socket:** Enables network communication and socket operations.
 
-**threading:** Allows concurrent execution of port scanning.
+* **threading:** Allows concurrent execution of port scanning.
 
-**pyfiglet:** Generates ASCII art banners for program.
+* **pyfiglet:** Generates ASCII art banners for program.
 
-**termcolor:** Provides colored output.
+* **termcolor:** Provides colored output.
 
-**datetime:** Used for displaying the scan start time.
+* **datetime:** Used for displaying the scan start time.
 
 Ensure that these dependencies are installed before running the script.
 
