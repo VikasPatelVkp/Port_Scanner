@@ -20,7 +20,7 @@ This Port Scanner script was created by **_Vikas Patel_**.
 
 The Port Scanner script relies on the following python libraries:
 
-**sys:** Provides access to command-line arguments.
+* **sys:** Provides access to command-line arguments.
 
 **socket:** Enables network communication and socket operations.
 
